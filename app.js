@@ -25,8 +25,11 @@ function pageTransition() {
 
             //Hide other sections 
             sections.forEach((section) => {
-                
+               section.classList.remove('active'); 
             })
+
+            const element = document.getElementById(id);
+            element.classList.add('active');
         }
     })
 }
