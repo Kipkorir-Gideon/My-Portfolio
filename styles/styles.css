@@ -8,7 +8,7 @@
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #27AE6D;
+  --color-secondary: #f67f3f;
   --color-white: #FFFFFF;
   --color-black: #000000;
   --color-grey0: #f8f8f8;
@@ -206,8 +206,8 @@ section {
   left: 0;
   top: 0;
   z-index: -1;
-  -webkit-clip-path: polygon(9% 2%, 100% 0%, 75% 100%, 0% 100%);
-          clip-path: polygon(9% 2%, 100% 0%, 75% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 48% 0, 86% 100%, 0% 100%);
+          clip-path: polygon(0 0, 48% 0, 86% 100%, 0% 100%);
 }
 
 .header-content .left-header .image {
@@ -234,5 +234,32 @@ section {
 .header-content .left-header img:hover {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
+}
+
+.header-content .right-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 18rem;
+}
+
+.header-content .right-header .name {
+  font-size: 3rem;
+}
+
+.header-content .right-header .name span {
+  color: var(--color-secondary);
+}
+
+.header-content .right-header p {
+  margin: 1.5rem 0;
+  line-height: 2rem;
 }
 /*# sourceMappingURL=styles.css.map */
