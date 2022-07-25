@@ -60,31 +60,26 @@ section {
 .sec1 {
     display: none;
     transform: translateY(0) scale(1);
-    background-color: #27AE6D;
 }
 
 .sec2 {
     display: none;
     transform: translateY(0) scale(1);
-    background-color: #d0f465;
 }
 
 .sec3 {
     display: none;
     transform: translateY(0) scale(1);
-    background-color: #97a8ed;
 }
 
 .sec4 {
     display: none;
     transform: translateY(0) scale(1);
-    background-color: #73e9d0;
 }
 
 .sec5 {
     display: none;
     transform: translateY(0) scale(1);
-    background-color: #f16de4;
 }
 
 .active {
@@ -137,5 +132,19 @@ section {
             color: var(--color-grey-2);
             pointer-events: none;
         }
+    }
+}
+
+
+
+//Header Content
+.header-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    .left-header {
+        display: flex;
+        align-items: center;
+        position: relative;
     }
 }
