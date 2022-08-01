@@ -195,6 +195,31 @@ section {
     }
 }
 
+/*About*/
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, ifr);
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+    .right-about {
+        display: grid;
+        grid-template-columns: repeat(2, ifr);
+        grid-gap: 2rem;
+        .about-item {
+            border: 1px solid var(--color-grey-5);
+            border-radius: 5px;
+            transition: all 0.4s ease-in-out;
+            box-shadow: 1px 2px 15px rgba(0,0,0,.1);
+            &:hover {
+                cursor: default;
+                transform: translate(-5px);
+                border: 1px solid var(--color-secondary);
+                box-shadow: 1px 4px 15px rgba(0,0,0,.32);
+            }
+        }
+    }
+}
+
 .btn-container {
     display: flex;
     align-self: flex-start;
