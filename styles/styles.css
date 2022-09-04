@@ -1088,8 +1088,8 @@ section {
         grid-template-columns: 1fr;
   }
   .portfolios {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
     padding-bottom: 6rem;
   }
   .blogs {
