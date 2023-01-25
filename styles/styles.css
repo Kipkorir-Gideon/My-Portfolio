@@ -803,15 +803,9 @@ section {
 }
 
 .contact-content-container .left-contact .contact-info .contact-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: -ms-grid;
+  display: grid;
+  margin-bottom: 1.5rem;
 }
 
 .contact-content-container .left-contact .contact-info .contact-item p {
@@ -834,6 +828,11 @@ section {
       -ms-flex-align: center;
           align-items: center;
   font-size: 1.3rem;
+}
+
+.contact-content-container .left-contact .contact-info .contact-item .icon span {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .contact-content-container .left-contact .contact-icon {
