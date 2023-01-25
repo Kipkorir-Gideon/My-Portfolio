@@ -298,11 +298,12 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-right: 18rem;
+  text-align: justify;
+  padding-right: 10rem;
 }
 
 .header-content .right-header .name {
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 
 .header-content .right-header .name span {
